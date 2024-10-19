@@ -5,8 +5,8 @@ import os
 import datetime
 
 # 로컬에서는 아래 내용이 있어야 함
-from dotenv import load_dotenv  
-load_dotenv()  
+# from dotenv import load_dotenv  
+# load_dotenv()  
 
 # 데이터 저장 함수
 def save_data(new_data):

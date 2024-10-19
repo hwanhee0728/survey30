@@ -61,7 +61,7 @@ def app():
         st.write("")
         recommend03 = st.text_area(":four: :::컨텐츠::: 로드뷰/항공뷰 웹페이지에서 추가서비스하면 좋을 컨텐츠가 있을까요? (예로 민사고 날씨)")
         st.write("")
-        recommend04 = st.text_area(":five: :::기타::: 신입생때 길을 찾기 어려워던 곳이 있나요?, 그리고 다른 의견이 있다면 자유롭게 적어주세요")
+        recommend04 = st.text_area(":five: :::기타::: 기타 의견이 있다면 자유롭게 적어주세요!")
         st.write("")
         st.write(":smile::smile::smile:아래 '저장하기' 클릭해 주세요! 감사합니다!!!")
         submit_button = st.form_submit_button(label='저장하기')

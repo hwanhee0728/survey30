@@ -57,7 +57,7 @@ def app():
         st.write("")
         recommend01 = st.text_area(":two: :::로드뷰::: 멋진 장소, 의미있는/도움되는 장소, 산책길 등을 추천해 주세요. (추천사유 포함)")
         st.write("")
-        recommend02 = st.text_area(":three: :::항공뷰::: 드론 360도 파노라마 뷰을 보고 싶은 장소를 적어 주세요. (추천사유 포함)")
+        recommend02 = st.text_area(":three: :::항공뷰::: 드론 360도 촬영 추천 장소가 있다면 적어 주세요. (띄울 장소, 촬영 높이, 추천사유 포함)")
         st.write("")
         recommend03 = st.text_area(":four: :::컨텐츠::: 로드뷰/항공뷰 외에 추가 제공하면 좋을 컨텐츠가 있다면 적어 주세요. (예: 민사고 날씨, 대기질)")
         st.write("")

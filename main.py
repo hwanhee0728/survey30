@@ -47,7 +47,7 @@ def app():
 
     # 사용자 입력 양식
     with st.form(key='survey_form'):
-        st.write(":mega: KMLA Campus 360 개발 설문조사 (28기 구환희, 권휘우, 조재후)")
+        st.write(":mega: KMLA Campus 360 개발 설문조사 (28기 구환희, 권휘우, 조재후, 김나현)")
         st.markdown("<p style='font-size:14px; color:blue;'>안녕하세요! 민사고안에서 360도 파노라마 사진을 볼 수 있는 로드뷰와 항공뷰를 제작하고 있습니다.</p>", unsafe_allow_html=True)
         st.markdown("<p style='font-size:14px; color:blue;'>(네이버 거리뷰/항공뷰 같은) 공유하고 싶은 멋진 장소, 아름다운 장소, 의미있는 장소/설치물, </p>", unsafe_allow_html=True)
         st.markdown("<p style='font-size:14px; color:blue;'>내가 좋아하는 산책길 등을 알려주시면, 제작에 도움이 많이 될것 같습니다.</p>", unsafe_allow_html=True)

@@ -40,9 +40,9 @@ def app():
     st.image(image)
     
     # KMLA Map 링크 추가
-    if st.button('KMLA 지도를 보려면 클릭하세요'):
+    if st.button('KMLA 로드뷰와 항공뷰 예시를 보시려면 클릭하세요!(360도 사진들 중 하나의 한 부분만 캡쳐)'):
         # 버튼 클릭 시 이미지 표시
-        map_image = Image.open('kmlamap.png')
+        map_image = Image.open('kmlamap2.png')
         st.image(map_image, caption="KMLA 지도", use_column_width=True)
 
     # 사용자 입력 양식

@@ -43,7 +43,7 @@ def app():
     if st.button('KMLA 로드뷰 항공뷰 예시 클릭! (360도 사진중 몇 개, 한 부분씩 캡쳐)'):
         # 버튼 클릭 시 이미지 표시
         map_image = Image.open('kmlamap2.png')
-        st.image(map_image, caption="KMLA 지도", use_column_width=True)
+        st.image(map_image, caption="KMLA 로드뷰 항공뷰 촬영사진 일부", use_column_width=True)
 
     # 사용자 입력 양식
     with st.form(key='survey_form'):
